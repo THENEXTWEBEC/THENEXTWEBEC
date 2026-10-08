@@ -1,7 +1,16 @@
+<!doctype html>
+<html lang="es-EC">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <meta name="description" content="Muestra de diseño de una clínica veterinaria ficticia realizada para el portafolio de NextWebEC.">
+  <title>Muestra de diseño veterinario | NextWebEC</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-  .vet-wrap { font-family: 'Inter', sans-serif; background: #f7f4ef; width: 900px; min-height: 580px; border-radius: 10px; overflow: hidden; }
+  .vet-wrap { font-family: 'Inter', sans-serif; background: #f7f4ef; width: 100%; max-width: 900px; min-height: 580px; border-radius: 10px; overflow: hidden; }
   .vet-nav { display: flex; align-items: center; justify-content: space-between; padding: 18px 40px; background: #fff; border-bottom: 1px solid #e8e3da; }
   .vet-logo { display: flex; align-items: center; gap: 10px; }
   .vet-logo-icon { width: 36px; height: 36px; background: #3a7d5c; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
@@ -40,7 +49,28 @@
   .vet-service-title { font-size: 13px; color: #e8f5ee; font-weight: 700; margin-bottom: 5px; letter-spacing: -0.3px; }
   .vet-service-desc { font-size: 11px; color: #7a9b87; line-height: 1.5; font-weight: 400; }
   .vet-stat { font-size: 26px; color: #a8d5bc; font-weight: 800; letter-spacing: -1px; }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; padding: 16px; background: #f7f4ef; }
+  .vet-wrap { margin: 0 auto; }
+  @media (max-width: 700px) {
+    .vet-nav { flex-wrap: wrap; gap: 14px; padding: 18px 20px; }
+    .vet-nav-links { flex-wrap: wrap; gap: 16px; }
+    .vet-hero { flex-direction: column; }
+    .vet-hero-left { padding: 32px 20px; }
+    .vet-hero-right { width: 100%; height: 320px; }
+    .vet-hero-h1 { font-size: clamp(28px, 7vw, 38px); }
+    .vet-btns { flex-wrap: wrap; }
+    .vet-pills { margin-left: 0; }
+    .vet-services { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 360px) {
+    .vet-services { grid-template-columns: 1fr; }
+    .vet-hero-right { height: 280px; }
+  }
 </style>
+</head>
+<body><p style="margin:16px auto;max-width:900px;font:14px/1.5 Arial,sans-serif;color:#333">Muestra de diseño: los datos y las acciones de esta página son ilustrativos. <a href="/">Volver a NextWebEC</a>.</p>
 <div class="vet-wrap">
   <div class="vet-nav">
     <div class="vet-logo">
@@ -115,3 +145,7 @@
     </div>
   </div>
 </div>
+
+
+</body>
+</html>
