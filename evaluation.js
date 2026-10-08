@@ -1,0 +1,12 @@
+
+    const questions=['¿Tu visitante entiende qué vendes en menos de cinco segundos?','¿Tienes botones claros para WhatsApp o contacto?','¿La web guía al cliente hacia una acción específica?','¿Tu web actual te genera consultas de forma constante?','¿Tus servicios están explicados con claridad?','¿Las imágenes transmiten el nivel real de tu empresa?','¿Tu sitio se ve bien y carga con rapidez en celular?','¿Puedes actualizar información importante sin complicaciones?','¿Tu web muestra por qué elegirte frente a otras opciones?','¿La información de contacto es fácil de encontrar?'];
+    const questionsNode=document.getElementById('questions');
+    questionsNode.innerHTML=questions.map((question,index)=>`<fieldset><legend>${question}</legend><div class="choices"><label><input required type="radio" name="q${index}" value="si"> Sí</label><label><input required type="radio" name="q${index}" value="no"> No</label></div></fieldset>`).join('');
+    document.getElementById('nombre').addEventListener('input', e => e.target.setCustomValidity(''));
+    document.getElementById('check').addEventListener('submit',(event)=>{
+      event.preventDefault();if(!event.currentTarget.reportValidity())return;const data=new FormData(event.currentTarget);if(!String(data.get('nombre')).trim()){document.getElementById('nombre').setCustomValidity('Introduce tu nombre.');document.getElementById('nombre').reportValidity();return;} const no=questions.filter((_,index)=>data.get('q'+index)==='no').length;
+      const recommendation=no<=2?'Tu web tiene una base saludable. Conviene revisar mejoras puntuales y mantenerla activa.':no<=5?'Hay oportunidades claras. Un rediseño puede mejorar claridad, confianza y conversión.':'Tu presencia digital necesita atención. Conviene revisar una nueva estructura o un rediseño profundo.';
+      window.nextwebecTrack?.('web_evaluation_completed');const result=document.getElementById('result');result.classList.add('show');const text=`Hola José, hice la evaluación de mi web.\nNombre: ${data.get('nombre')}\nWhatsApp: ${data.get('telefono')}\nWeb: ${data.get('web')||'No indicada'}\nResultado: ${10-no}/10\nOrientación: ${recommendation}`;
+      result.innerHTML=`<strong>${recommendation}</strong><p>Resultado: ${10-no}/10 respuestas favorables.</p><a class="button" href="https://wa.me/593969349833?text=${encodeURIComponent(text)}" target="_blank" rel="noopener noreferrer">Compartir por WhatsApp</a>`;
+    });
+  

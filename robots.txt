@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /checklist-lead.js
 
 Sitemap: https://thenextwebec.com/sitemap.xml
