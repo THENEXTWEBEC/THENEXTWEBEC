@@ -116,7 +116,7 @@
   {
     "port": 8870,
     "mobileLab": {
-      "lcp": 1180,
+      "lcp": 1208,
       "cls": 0,
       "transfer": 129467
     }
@@ -124,7 +124,7 @@
   {
     "port": 8871,
     "mobileLab": {
-      "lcp": 1248,
+      "lcp": 1284,
       "cls": 0,
       "transfer": 129467
     }
