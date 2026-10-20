@@ -24,3 +24,31 @@
         location.assign('https://wa.me/593969349833?text=' + encodeURIComponent(text));
       });
     })();
+
+(function(){
+  const metrics = document.querySelector('.metrics-section');
+  if (!metrics) return;
+  const numbers = metrics.querySelectorAll('.metric-number');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const format = (value) => new Intl.NumberFormat('en-US').format(value);
+  const animate = (element) => {
+    const target = Number(element.dataset.target || 0);
+    if (reduceMotion) { element.textContent = format(target); return; }
+    const duration = 1500;
+    const start = performance.now();
+    const tick = (now) => {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      element.textContent = format(Math.round(target * eased));
+      if (progress < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  };
+  const observer = new IntersectionObserver((entries, instance) => {
+    if (entries.some((entry) => entry.isIntersecting)) {
+      numbers.forEach(animate);
+      instance.disconnect();
+    }
+  }, { threshold: 0.35 });
+  observer.observe(metrics);
+})();
