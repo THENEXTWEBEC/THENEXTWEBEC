@@ -1,0 +1,132 @@
+[
+  {
+    "width": 320,
+    "homepageTextAndLayoutPixelIdentical": true,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "width": 390,
+    "homepageTextAndLayoutPixelIdentical": true,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "width": 768,
+    "homepageTextAndLayoutPixelIdentical": true,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "width": 1440,
+    "homepageTextAndLayoutPixelIdentical": true,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/diseno-web-quito/",
+    "width": 320,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/diseno-web-quito/",
+    "width": 390,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/diseno-web-quito/",
+    "width": 1440,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/rediseno-paginas-web-ecuador/",
+    "width": 320,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/rediseno-paginas-web-ecuador/",
+    "width": 390,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/rediseno-paginas-web-ecuador/",
+    "width": 1440,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/evaluar-mi-web.html",
+    "width": 320,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/evaluar-mi-web.html",
+    "width": 390,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/evaluar-mi-web.html",
+    "width": 1440,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/privacidad.html",
+    "width": 320,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/privacidad.html",
+    "width": 390,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/privacidad.html",
+    "width": 1440,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/terminos.html",
+    "width": 320,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/terminos.html",
+    "width": 390,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "path": "/terminos.html",
+    "width": 1440,
+    "overflow": false,
+    "consoleErrors": 0
+  },
+  {
+    "port": 8870,
+    "mobileLab": {
+      "lcp": 1180,
+      "cls": 0,
+      "transfer": 129467
+    }
+  },
+  {
+    "port": 8871,
+    "mobileLab": {
+      "lcp": 1248,
+      "cls": 0,
+      "transfer": 129467
+    }
+  }
+]

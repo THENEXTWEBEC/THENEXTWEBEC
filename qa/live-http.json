@@ -1,0 +1,52 @@
+[
+  {
+    "url": "http://thenextwebec.com/",
+    "status": 200,
+    "final": "https://thenextwebec.com/",
+    "type": "text/html; charset=utf-8",
+    "xRobotsTag": null,
+    "bytes": 26527,
+    "sha256": "d22d0772009ed9ad48071646f306e8e918526fea47d904b04478a97b0d3f8ba1"
+  },
+  {
+    "url": "https://www.thenextwebec.com/",
+    "status": 200,
+    "final": "https://thenextwebec.com/",
+    "type": "text/html; charset=utf-8",
+    "xRobotsTag": null,
+    "bytes": 26527,
+    "sha256": "d22d0772009ed9ad48071646f306e8e918526fea47d904b04478a97b0d3f8ba1"
+  },
+  {
+    "url": "https://thenextwebec.com/",
+    "status": 200,
+    "final": "https://thenextwebec.com/",
+    "type": "text/html; charset=utf-8",
+    "xRobotsTag": null,
+    "bytes": 26527,
+    "sha256": "d22d0772009ed9ad48071646f306e8e918526fea47d904b04478a97b0d3f8ba1"
+  },
+  {
+    "url": "https://thenextwebec.com/robots.txt",
+    "status": 200,
+    "final": "https://thenextwebec.com/robots.txt",
+    "type": "text/plain; charset=utf-8",
+    "xRobotsTag": null,
+    "bytes": 115,
+    "sha256": "40af0250d74038694f5010d8bf09e2cc9b51a101c040fffaa20a5270ee3152d4"
+  },
+  {
+    "url": "https://thenextwebec.com/sitemap.xml",
+    "status": 200,
+    "final": "https://thenextwebec.com/sitemap.xml",
+    "type": "application/xml",
+    "xRobotsTag": null,
+    "bytes": 357,
+    "sha256": "2e7047cc643fecc2fbdff93f367be3454e84155eba7f07485de1b02739e3083d"
+  },
+  {
+    "url": "https://thenextwebec.com/seo-audit-does-not-exist-20261020",
+    "status": 404,
+    "final": "https://thenextwebec.com/seo-audit-does-not-exist-20261020"
+  }
+]
