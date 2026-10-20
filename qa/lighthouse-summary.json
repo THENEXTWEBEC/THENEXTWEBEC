@@ -1,0 +1,30 @@
+{
+  "before": {
+    "fetchTime": "2026-10-20T19:16:15.112Z",
+    "lighthouseVersion": "13.5.0",
+    "categories": {
+      "performance": 1,
+      "seo": 1
+    },
+    "metrics": {
+      "largest-contentful-paint": 1885.7507,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 31.624649999999974,
+      "speed-index": 1060.7507
+    }
+  },
+  "after": {
+    "fetchTime": "2026-10-20T19:16:28.844Z",
+    "lighthouseVersion": "13.5.0",
+    "categories": {
+      "performance": 1,
+      "seo": 1
+    },
+    "metrics": {
+      "largest-contentful-paint": 1586.073,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 0,
+      "speed-index": 1061.073
+    }
+  }
+}
