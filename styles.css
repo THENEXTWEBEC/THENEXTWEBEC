@@ -35,7 +35,7 @@
 .metrics-heading{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:54px}
 .metrics-heading h2{max-width:720px;margin:0;font-size:clamp(2.35rem,4.4vw,4.55rem);font-weight:570;letter-spacing:-.065em;line-height:.98}
 .metrics-note{max-width:260px;margin:0;color:var(--muted);font-size:13px;line-height:1.55}
-.metrics-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}
+.metrics-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
 .metric-card{position:relative;padding:25px 24px 0 0;border-right:1px solid var(--line)}
 .metric-card:not(:first-child){padding-left:24px}
 .metric-card:last-child{border-right:0}
