@@ -54,24 +54,3 @@
 .icon-arrow{display:inline-block;width:1em;height:1em;margin-left:.42em;vertical-align:-.12em;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;transition:transform .2s var(--ease)}
 .text-link:hover .icon-arrow,.button:hover .icon-arrow{transform:translateX(3px)}
 .metric-icon-svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.45;stroke-linecap:round;stroke-linejoin:round}
-
-/* Dirección editorial NextWebEC */
-:root{--navy:#101e38;--ink:#171a20;--blue:#154fe7;--blue-deep:#1241bd;--line:#d9d6ce;--soft:#edeae1;--white:#f7f5ee}
-body{background:#f7f5ee;color:var(--ink)}
-h1,h2,h3{text-wrap:balance}
-.site-header{background:#f7f5ee}
-.hero h1{letter-spacing:-.065em;line-height:.96}
-.hero-summary{max-width:36rem}
-.discipline-strip{background:var(--navy);color:#f7f5ee}
-.discipline-items p{color:inherit;letter-spacing:.08em;text-transform:uppercase;font-size:.72rem}
-.principles article{border-radius:0;box-shadow:none;background:transparent;border-top:1px solid var(--ink)}
-.principles article span{font-size:clamp(2.5rem,5vw,5rem);line-height:1;color:var(--blue);letter-spacing:-.06em}
-.case-visual img{transition:transform .45s ease}
-.case-study:hover .case-visual img{transform:scale(1.025)}
-.case-visual{overflow:hidden}
-.service-list article{transition:transform .3s ease,background-color .3s ease}
-.service-list article:hover{transform:translateX(6px);background:#edeae1}
-.package{border-radius:0;box-shadow:none}
-.button:active{transform:scale(.98)}
-:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
