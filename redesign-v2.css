@@ -19,6 +19,7 @@ html{scroll-behavior:smooth}body{background:#f6f5f1;color:var(--ink)}.shell{widt
 
 /* Present the hero visuals as two separate, level pieces with no text underneath them. */
 @media(min-width:681px){
+  .hero{grid-template-columns:.88fr 1.12fr}
   .hero-showcase{display:grid;grid-template-columns:minmax(0,1fr) minmax(150px,22%);gap:clamp(24px,4vw,56px);align-items:end}
   .hero-showcase>.browser-frame{grid-column:1;width:100%;margin:0;transform:none}
   .hero-showcase>.phone-frame{grid-column:2;position:relative;right:auto;bottom:auto;width:100%;margin:0}
