@@ -40,4 +40,4 @@ html{scroll-behavior:smooth}body{background:#f6f5f1;color:var(--ink)}.shell{widt
 
 /* Keep the Inca Holidays cover at its real ratio; never stretch the project frame. */
 .case-wellness .case-visual{aspect-ratio:auto;background:#101c34}
-.case-wellness .case-visual>img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+.case-wellness .case-visual>img{display:block;width:100%;height:auto!important;min-height:0;aspect-ratio:auto!important;object-fit:contain}
