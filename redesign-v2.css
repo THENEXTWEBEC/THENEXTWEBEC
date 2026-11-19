@@ -41,3 +41,16 @@ html{scroll-behavior:smooth}body{background:#f6f5f1;color:var(--ink)}.shell{widt
 /* Keep the Inca Holidays cover at its real ratio; never stretch the project frame. */
 .case-wellness .case-visual{align-self:start;aspect-ratio:auto;height:max-content;background:#101c34}
 .case-wellness .case-visual>img{display:block;width:100%;height:auto!important;min-height:0;aspect-ratio:auto!important;object-fit:contain!important}
+
+
+/* Mobile hero: keep the desktop and phone previews separate and fully visible. */
+@media(max-width:680px){
+  .hero-showcase{display:grid;grid-template-columns:minmax(0,1fr) minmax(72px,19%);gap:clamp(14px,4vw,24px);align-items:center;margin:42px 0 20px;padding:0;}
+  .hero-showcase>.browser-frame{grid-column:1;width:100%;margin:0;transform:none;}
+  .hero-showcase>.phone-frame{grid-column:2;position:relative;right:auto;bottom:auto;width:100%;max-width:none;margin:0;border-width:3px;border-radius:12px;}
+  .hero-showcase>.showcase-caption{grid-column:1/-1;margin:4px 0 0;font-size:9px;}
+  .hero-actions .text-link span{display:inline-flex;align-items:center;}
+  .hero-actions .text-link .icon-arrow{width:16px;height:16px;stroke-width:1.25;}
+  .goals-list a b{display:flex;align-items:center;justify-content:center;}
+  .goals-list a b .icon-arrow{width:17px;height:17px;stroke-width:1.25;}
+}
